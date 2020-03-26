@@ -18,7 +18,7 @@ export default {
   data: function() {
     return {
       movies: [
-        { title: "La La Land", genre: genres.ANIMATION },
+        { title: "La La Land 3", genre: genres.ANIMATION },
         { title: "Home Alone", genre: genres.ANIMATION },
         { title: "Austin Powers", genre: genres.HORROR },
       ]
