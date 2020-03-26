@@ -1,26 +1,8 @@
-import Vue from "vue";
+import Vue from 'vue'
+import App from './App.vue'
 
-import "./style.scss";
-import MovieList from './components/MovieList.vue';
-import MovieFilter from './components/MovieFilter.vue';
+Vue.config.productionTip = false
 
 new Vue({
-  el: "#app",
-  data: {
-    time: [],
-    genre: []
-  },
-  methods: {
-    checkFilter: function(category, title, checked) {
-      if(checked) {
-        this[category].push(title);
-      } else {
-        this[category] = this[category].filter(item => item !== title);
-      }
-    }
-  },
-  components: {
-    MovieList,
-    MovieFilter,
-  }
-});
+  render: h => h(App),
+}).$mount('#app')
