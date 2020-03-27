@@ -1,45 +1,45 @@
 [
   {
     "id": "tt0379225",
-    "movie": {
-      "Title": "The Corporation",
-      "Year": "2003",
-      "Rated": "PG-13",
-      "Released": "04 Jun 2004",
-      "Runtime": "145 min",
-      "Genre": "Documentary, History",
-      "Director": "Mark Achbar, Jennifer Abbott",
-      "Writer": "Joel Bakan, Joel Bakan (book), Harold Crooks (narration written by), Joel Bakan (narration written by), Mark Achbar (narration written by), Mark Achbar (developer), Joel Bakan (developer), Thomas Shandel (developer), Mark Achbar (creator), Joel Bakan (creator)",
-      "Actors": "Mikela Jay, Rob Beckwermert, Christopher Gora, Nina Jones",
-      "Plot": "Documentary that looks at the concept of the corporation throughout recent history up to its present-day dominance.",
-      "Language": "English, Spanish",
-      "Country": "Canada",
-      "Awards": "11 wins & 1 nomination.",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQxMjMzMTczM15BMl5BanBnXkFtZTcwNzg5MzUyMQ@@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "The Corporation",
+      "year": "2003",
+      "rated": "PG-13",
+      "released": "04 Jun 2004",
+      "runtime": "145 min",
+      "genre": "Documentary, History",
+      "director": "Mark Achbar, Jennifer Abbott",
+      "writer": "Joel Bakan, Joel Bakan (book), Harold Crooks (narration written by), Joel Bakan (narration written by), Mark Achbar (narration written by), Mark Achbar (developer), Joel Bakan (developer), Thomas Shandel (developer), Mark Achbar (creator), Joel Bakan (creator)",
+      "actors": "Mikela Jay, Rob Beckwermert, Christopher Gora, Nina Jones",
+      "plot": "Documentary that looks at the concept of the corporation throughout recent history up to its present-day dominance.",
+      "language": "English, Spanish",
+      "country": "Canada",
+      "awards": "11 wins & 1 nomination.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQxMjMzMTczM15BMl5BanBnXkFtZTcwNzg5MzUyMQ@@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "8.1/10"
+          "source": "Internet Movie Database",
+          "value": "8.1/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "90%"
+          "source": "Rotten Tomatoes",
+          "value": "90%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "73/100"
+          "source": "Metacritic",
+          "value": "73/100"
         }
       ],
-      "Metascore": "73",
-      "imdbRating": "8.1",
-      "imdbVotes": "18,472",
-      "imdbID": "tt0379225",
-      "Type": "movie",
-      "DVD": "05 Apr 2005",
-      "BoxOffice": "$1,350,094.00",
-      "Production": "Zeitgeist Films",
-      "Website": "http://www.thecorporation.com",
-      "Response": "True"
+      "metascore": "73",
+      "imdbrating": "8.1",
+      "imdbvotes": "18,472",
+      "imdbid": "tt0379225",
+      "type": "movie",
+      "dvd": "05 Apr 2005",
+      "boxoffice": "$1,350,094.00",
+      "production": "Zeitgeist Films",
+      "website": "http://www.thecorporation.com",
+      "response": "True"
     },
     "sessions": [
       {
@@ -221,45 +221,45 @@
   },
   {
     "id": "tt1172203",
-    "movie": {
-      "Title": "Sita Sings the Blues",
-      "Year": "2008",
-      "Rated": "G",
-      "Released": "12 Aug 2009",
-      "Runtime": "82 min",
-      "Genre": "Animation, Comedy, Fantasy",
-      "Director": "Nina Paley",
-      "Writer": "Nina Paley, Valmiki (book)",
-      "Actors": "Annette Hanshaw, Aseem Chhabra, Bhavana Nagulapally, Manish Acharya",
-      "Plot": "An animated version of the epic Indian tale of Ramayana set to the 1920s jazz vocals of Annette Hanshaw.",
-      "Language": "English",
-      "Country": "USA",
-      "Awards": "7 wins & 3 nominations.",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MzYwNDYwNF5BMl5BanBnXkFtZTgwMDMwNDg5MTE@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "Sita Sings the Blues",
+      "year": "2008",
+      "rated": "G",
+      "released": "12 Aug 2009",
+      "runtime": "82 min",
+      "genre": "Animation, Comedy, Fantasy",
+      "director": "Nina Paley",
+      "writer": "Nina Paley, Valmiki (book)",
+      "actors": "Annette Hanshaw, Aseem Chhabra, Bhavana Nagulapally, Manish Acharya",
+      "plot": "An animated version of the epic Indian tale of Ramayana set to the 1920s jazz vocals of Annette Hanshaw.",
+      "language": "English",
+      "country": "USA",
+      "awards": "7 wins & 3 nominations.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MzYwNDYwNF5BMl5BanBnXkFtZTgwMDMwNDg5MTE@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.7/10"
+          "source": "Internet Movie Database",
+          "value": "7.7/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "100%"
+          "source": "Rotten Tomatoes",
+          "value": "100%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "93/100"
+          "source": "Metacritic",
+          "value": "93/100"
         }
       ],
-      "Metascore": "93",
-      "imdbRating": "7.7",
-      "imdbVotes": "3,573",
-      "imdbID": "tt1172203",
-      "Type": "movie",
-      "DVD": "28 Jul 2009",
-      "BoxOffice": "N/A",
-      "Production": "Shadow Distribution",
-      "Website": "http://www.sitasingstheblues.com/",
-      "Response": "True"
+      "metascore": "93",
+      "imdbrating": "7.7",
+      "imdbvotes": "3,573",
+      "imdbid": "tt1172203",
+      "type": "movie",
+      "dvd": "28 Jul 2009",
+      "boxoffice": "N/A",
+      "production": "Shadow Distribution",
+      "website": "http://www.sitasingstheblues.com/",
+      "response": "True"
     },
     "sessions": [
       {
@@ -381,37 +381,37 @@
   },
   {
     "id": "tt1727587",
-    "movie": {
-      "Title": "Sintel",
-      "Year": "2010",
-      "Rated": "R",
-      "Released": "27 Sep 2010",
-      "Runtime": "14 min",
-      "Genre": "Animation, Short, Fantasy",
-      "Director": "Colin Levy",
-      "Writer": "Martin Lodewijk (idea), Esther Wouda",
-      "Actors": "Halina Reijn, Thom Hoffman",
-      "Plot": "The film follows a girl named Sintel who is searching for a baby dragon she calls Scales. A flashback reveals that Sintel found Scales with its wing injured and helped care for it, forming ...",
-      "Language": "English",
-      "Country": "Netherlands",
-      "Awards": "3 wins.",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzc5NTUzNTgzMF5BMl5BanBnXkFtZTcwODcwMzQ5Mw@@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "Sintel",
+      "year": "2010",
+      "rated": "R",
+      "released": "27 Sep 2010",
+      "runtime": "14 min",
+      "genre": "Animation, Short, Fantasy",
+      "director": "Colin Levy",
+      "writer": "Martin Lodewijk (idea), Esther Wouda",
+      "actors": "Halina Reijn, Thom Hoffman",
+      "plot": "The film follows a girl named Sintel who is searching for a baby dragon she calls Scales. A flashback reveals that Sintel found Scales with its wing injured and helped care for it, forming ...",
+      "language": "English",
+      "country": "Netherlands",
+      "awards": "3 wins.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzc5NTUzNTgzMF5BMl5BanBnXkFtZTcwODcwMzQ5Mw@@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.6/10"
+          "source": "Internet Movie Database",
+          "value": "7.6/10"
         }
       ],
-      "Metascore": "N/A",
-      "imdbRating": "7.6",
-      "imdbVotes": "2,933",
-      "imdbID": "tt1727587",
-      "Type": "movie",
-      "DVD": "N/A",
-      "BoxOffice": "N/A",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True"
+      "metascore": "N/A",
+      "imdbrating": "7.6",
+      "imdbvotes": "2,933",
+      "imdbid": "tt1727587",
+      "type": "movie",
+      "dvd": "N/A",
+      "boxoffice": "N/A",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True"
     },
     "sessions": [
       {
@@ -638,45 +638,45 @@
   },
   {
     "id": "tt1352852",
-    "movie": {
-      "Title": "The Yes Men Fix the World",
-      "Year": "2009",
-      "Rated": "G",
-      "Released": "07 Aug 2009",
-      "Runtime": "87 min",
-      "Genre": "Documentary, Comedy",
-      "Director": "Andy Bichlbaum, Mike Bonanno, Kurt Engfehr",
-      "Writer": "Andy Bichlbaum (idea), Mike Bonanno (idea), Andy Bichlbaum (screenplay), Mike Bonanno (screenplay)",
-      "Actors": "Reggie Watts, Mike Bonanno, Andy Bichlbaum, Richard Ebeling",
-      "Plot": "Troublemaking duo Andy Bichlbaum and Mike Bonanno, posing as their industrious alter-egos, expose the people profiting from Hurricane Katrina, the faces behind the environmental disaster in Bhopal, and other shocking events.",
-      "Language": "English",
-      "Country": "France, UK, USA",
-      "Awards": "2 wins & 2 nominations.",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0MzM2MjU0N15BMl5BanBnXkFtZTcwMDIyMDcxMw@@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "The Yes Men Fix the World",
+      "year": "2009",
+      "rated": "G",
+      "released": "07 Aug 2009",
+      "runtime": "87 min",
+      "genre": "Documentary, Comedy",
+      "director": "Andy Bichlbaum, Mike Bonanno, Kurt Engfehr",
+      "writer": "Andy Bichlbaum (idea), Mike Bonanno (idea), Andy Bichlbaum (screenplay), Mike Bonanno (screenplay)",
+      "actors": "Reggie Watts, Mike Bonanno, Andy Bichlbaum, Richard Ebeling",
+      "plot": "Troublemaking duo Andy Bichlbaum and Mike Bonanno, posing as their industrious alter-egos, expose the people profiting from Hurricane Katrina, the faces behind the environmental disaster in Bhopal, and other shocking events.",
+      "language": "English",
+      "country": "France, UK, USA",
+      "awards": "2 wins & 2 nominations.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0MzM2MjU0N15BMl5BanBnXkFtZTcwMDIyMDcxMw@@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.6/10"
+          "source": "Internet Movie Database",
+          "value": "7.6/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "77%"
+          "source": "Rotten Tomatoes",
+          "value": "77%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "71/100"
+          "source": "Metacritic",
+          "value": "71/100"
         }
       ],
-      "Metascore": "71",
-      "imdbRating": "7.6",
-      "imdbVotes": "4,655",
-      "imdbID": "tt1352852",
-      "Type": "movie",
-      "DVD": "01 Apr 2010",
-      "BoxOffice": "N/A",
-      "Production": "Cinetic Media",
-      "Website": "http://www.theyesmen.org/movies/theyesmenfixtheworld",
-      "Response": "True"
+      "metascore": "71",
+      "imdbrating": "7.6",
+      "imdbvotes": "4,655",
+      "imdbid": "tt1352852",
+      "type": "movie",
+      "dvd": "01 Apr 2010",
+      "boxoffice": "N/A",
+      "production": "Cinetic Media",
+      "website": "http://www.theyesmen.org/movies/theyesmenfixtheworld",
+      "response": "True"
     },
     "sessions": [
       {
@@ -848,37 +848,37 @@
   },
   {
     "id": "tt1379199",
-    "movie": {
-      "Title": "Chiaroscuro, Baby",
-      "Year": "2009",
-      "Rated": "R",
-      "Released": "04 Nov 2009",
-      "Runtime": "127 min",
-      "Genre": "Drama",
-      "Director": "Anthony Kilburn",
-      "Writer": "Anthony Kilburn",
-      "Actors": "Christopher Bolla, Christianna White, Milan Alley, Matt Shuman",
-      "Plot": "An aspiring painter compromises his ambition for his seductive girlfriend, only to be torn when his empowering, new muse reignites his passion.",
-      "Language": "English",
-      "Country": "USA",
-      "Awards": "N/A",
-      "Poster": "http://ia.media-imdb.com/images/M/MV5BMzUyNjc3NTg0NV5BMl5BanBnXkFtZTcwMTQ1OTg4Mg@@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "Chiaroscuro, Baby",
+      "year": "2009",
+      "rated": "R",
+      "released": "04 Nov 2009",
+      "runtime": "127 min",
+      "genre": "Drama",
+      "director": "Anthony Kilburn",
+      "writer": "Anthony Kilburn",
+      "actors": "Christopher Bolla, Christianna White, Milan Alley, Matt Shuman",
+      "plot": "An aspiring painter compromises his ambition for his seductive girlfriend, only to be torn when his empowering, new muse reignites his passion.",
+      "language": "English",
+      "country": "USA",
+      "awards": "N/A",
+      "poster": "http://ia.media-imdb.com/images/M/MV5BMzUyNjc3NTg0NV5BMl5BanBnXkFtZTcwMTQ1OTg4Mg@@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "5.7/10"
+          "source": "Internet Movie Database",
+          "value": "5.7/10"
         }
       ],
-      "Metascore": "N/A",
-      "imdbRating": "5.7",
-      "imdbVotes": "30",
-      "imdbID": "tt1379199",
-      "Type": "movie",
-      "DVD": "N/A",
-      "BoxOffice": "N/A",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True"
+      "metascore": "N/A",
+      "imdbrating": "5.7",
+      "imdbvotes": "30",
+      "imdbid": "tt1379199",
+      "type": "movie",
+      "dvd": "N/A",
+      "boxoffice": "N/A",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True"
     },
     "sessions": [
       {
@@ -1115,37 +1115,37 @@
   },
   {
     "id": "tt1562881",
-    "movie": {
-      "Title": "The Death of Hollywood",
-      "Year": "2009",
-      "Rated": "G",
-      "Released": "N/A",
-      "Runtime": "84 min",
-      "Genre": "Comedy, Crime, Drama",
-      "Director": "Blake Fitzpatrick",
-      "Writer": "Blake Fitzpatrick",
-      "Actors": "Philip Denver, Seth Correa, Joe Estevez, Sharon Marie Wright",
-      "Plot": "A disgruntled screenwriter kidnaps the sleazy Hollywood producer that stole his material and switches identities with him, attempting to change the face of corporate cinema forever.",
-      "Language": "English",
-      "Country": "USA",
-      "Awards": "4 wins.",
-      "Poster": "http://ia.media-imdb.com/images/M/MV5BMTY4NjkzMDg0NV5BMl5BanBnXkFtZTcwNjAwOTA3NA@@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "The Death of Hollywood",
+      "year": "2009",
+      "rated": "G",
+      "released": "N/A",
+      "runtime": "84 min",
+      "genre": "Comedy, Crime, Drama",
+      "director": "Blake Fitzpatrick",
+      "writer": "Blake Fitzpatrick",
+      "actors": "Philip Denver, Seth Correa, Joe Estevez, Sharon Marie Wright",
+      "plot": "A disgruntled screenwriter kidnaps the sleazy Hollywood producer that stole his material and switches identities with him, attempting to change the face of corporate cinema forever.",
+      "language": "English",
+      "country": "USA",
+      "awards": "4 wins.",
+      "poster": "http://ia.media-imdb.com/images/M/MV5BMTY4NjkzMDg0NV5BMl5BanBnXkFtZTcwNjAwOTA3NA@@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.2/10"
+          "source": "Internet Movie Database",
+          "value": "7.2/10"
         }
       ],
-      "Metascore": "N/A",
-      "imdbRating": "7.2",
-      "imdbVotes": "39",
-      "imdbID": "tt1562881",
-      "Type": "movie",
-      "DVD": "N/A",
-      "BoxOffice": "N/A",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True"
+      "metascore": "N/A",
+      "imdbrating": "7.2",
+      "imdbvotes": "39",
+      "imdbid": "tt1562881",
+      "type": "movie",
+      "dvd": "N/A",
+      "boxoffice": "N/A",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True"
     },
     "sessions": [
       {
@@ -1342,45 +1342,45 @@
   },
   {
     "id": "tt0489037",
-    "movie": {
-      "Title": "Who Killed the Electric Car?",
-      "Year": "2006",
-      "Rated": "PG",
-      "Released": "04 Aug 2006",
-      "Runtime": "92 min",
-      "Genre": "Documentary",
-      "Director": "Chris Paine",
-      "Writer": "Chris Paine",
-      "Actors": "Martin Sheen, Reverend Gadget, Dave Barthmuss, Ed Begley Jr.",
-      "Plot": "A documentary that investigates the birth and death of the electric car, as well as the role of renewable energy and sustainable living in the future.",
-      "Language": "English",
-      "Country": "USA",
-      "Awards": "4 nominations.",
-      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc1MTM0MTA2N15BMl5BanBnXkFtZTcwMTk1OTIzMQ@@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "Who Killed the Electric Car?",
+      "year": "2006",
+      "rated": "PG",
+      "released": "04 Aug 2006",
+      "runtime": "92 min",
+      "genre": "Documentary",
+      "director": "Chris Paine",
+      "writer": "Chris Paine",
+      "actors": "Martin Sheen, Reverend Gadget, Dave Barthmuss, Ed Begley Jr.",
+      "plot": "A documentary that investigates the birth and death of the electric car, as well as the role of renewable energy and sustainable living in the future.",
+      "language": "English",
+      "country": "USA",
+      "awards": "4 nominations.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc1MTM0MTA2N15BMl5BanBnXkFtZTcwMTk1OTIzMQ@@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "7.7/10"
+          "source": "Internet Movie Database",
+          "value": "7.7/10"
         },
         {
-          "Source": "Rotten Tomatoes",
-          "Value": "88%"
+          "source": "Rotten Tomatoes",
+          "value": "88%"
         },
         {
-          "Source": "Metacritic",
-          "Value": "70/100"
+          "source": "Metacritic",
+          "value": "70/100"
         }
       ],
-      "Metascore": "70",
-      "imdbRating": "7.7",
-      "imdbVotes": "11,448",
-      "imdbID": "tt0489037",
-      "Type": "movie",
-      "DVD": "14 Nov 2006",
-      "BoxOffice": "$1,324,335.00",
-      "Production": "Sony Pictures Classics",
-      "Website": "http://www.whokilledtheelectriccar.com/",
-      "Response": "True"
+      "metascore": "70",
+      "imdbrating": "7.7",
+      "imdbvotes": "11,448",
+      "imdbid": "tt0489037",
+      "type": "movie",
+      "dvd": "14 Nov 2006",
+      "boxoffice": "$1,324,335.00",
+      "production": "Sony Pictures Classics",
+      "website": "http://www.whokilledtheelectriccar.com/",
+      "response": "True"
     },
     "sessions": [
       {
@@ -1577,37 +1577,37 @@
   },
   {
     "id": "tt1783305",
-    "movie": {
-      "Title": "Insignificant Celluloid",
-      "Year": "2011",
-      "Rated": "PG-13",
-      "Released": "N/A",
-      "Runtime": "78 min",
-      "Genre": "Comedy, Drama",
-      "Director": "Blake Fitzpatrick",
-      "Writer": "Blake Fitzpatrick",
-      "Actors": "Seth Correa, Lahcen Anajjar, Erik J. Pratt, Steve Williams",
-      "Plot": "It's about people feeling ways about things.",
-      "Language": "English",
-      "Country": "USA",
-      "Awards": "3 wins & 2 nominations.",
-      "Poster": "http://ia.media-imdb.com/images/M/MV5BNjk0OTYzNzU3OF5BMl5BanBnXkFtZTcwNTAwOTA3NA@@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "Insignificant Celluloid",
+      "year": "2011",
+      "rated": "PG-13",
+      "released": "N/A",
+      "runtime": "78 min",
+      "genre": "Comedy, Drama",
+      "director": "Blake Fitzpatrick",
+      "writer": "Blake Fitzpatrick",
+      "actors": "Seth Correa, Lahcen Anajjar, Erik J. Pratt, Steve Williams",
+      "plot": "It's about people feeling ways about things.",
+      "language": "English",
+      "country": "USA",
+      "awards": "3 wins & 2 nominations.",
+      "poster": "http://ia.media-imdb.com/images/M/MV5BNjk0OTYzNzU3OF5BMl5BanBnXkFtZTcwNTAwOTA3NA@@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "6.8/10"
+          "source": "Internet Movie Database",
+          "value": "6.8/10"
         }
       ],
-      "Metascore": "N/A",
-      "imdbRating": "6.8",
-      "imdbVotes": "41",
-      "imdbID": "tt1783305",
-      "Type": "movie",
-      "DVD": "N/A",
-      "BoxOffice": "N/A",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True"
+      "metascore": "N/A",
+      "imdbrating": "6.8",
+      "imdbvotes": "41",
+      "imdbid": "tt1783305",
+      "type": "movie",
+      "dvd": "N/A",
+      "boxoffice": "N/A",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True"
     },
     "sessions": [
       {
@@ -1784,37 +1784,37 @@
   },
   {
     "id": "tt4479976",
-    "movie": {
-      "Title": "Freddy's Return: A Nightmare Reborn",
-      "Year": "2009",
-      "Rated": "PG-13",
-      "Released": "13 Nov 2009",
-      "Runtime": "120 min",
-      "Genre": "Horror",
-      "Director": "Jason Korsiak",
-      "Writer": "Wes Craven (based on characters created by), Jason Korsiak",
-      "Actors": "Ronin Booker, Zakary Booker, David Buczynski, Rodney Covington",
-      "Plot": "As a child, Kevin was kidnapped by Freddy Krueger before Freddy was killed by a mob of angry parents. Although he was rescued by the detective that arrested Krueger, he was left scarred ...",
-      "Language": "English",
-      "Country": "USA",
-      "Awards": "N/A",
-      "Poster": "http://ia.media-imdb.com/images/M/MV5BMWRmYTc0NDYtYTZkYS00YzBhLTkyMmUtZjg3MTcwMjUxZTljXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg",
-      "Ratings": [
+    "infos": {
+      "title": "Freddy's Return: A Nightmare Reborn",
+      "year": "2009",
+      "rated": "PG-13",
+      "released": "13 Nov 2009",
+      "runtime": "120 min",
+      "genre": "Horror",
+      "director": "Jason Korsiak",
+      "writer": "Wes Craven (based on characters created by), Jason Korsiak",
+      "actors": "Ronin Booker, Zakary Booker, David Buczynski, Rodney Covington",
+      "plot": "As a child, Kevin was kidnapped by Freddy Krueger before Freddy was killed by a mob of angry parents. Although he was rescued by the detective that arrested Krueger, he was left scarred ...",
+      "language": "English",
+      "country": "USA",
+      "awards": "N/A",
+      "poster": "http://ia.media-imdb.com/images/M/MV5BMWRmYTc0NDYtYTZkYS00YzBhLTkyMmUtZjg3MTcwMjUxZTljXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg",
+      "ratings": [
         {
-          "Source": "Internet Movie Database",
-          "Value": "5.9/10"
+          "source": "Internet Movie Database",
+          "value": "5.9/10"
         }
       ],
-      "Metascore": "N/A",
-      "imdbRating": "5.9",
-      "imdbVotes": "10",
-      "imdbID": "tt4479976",
-      "Type": "movie",
-      "DVD": "N/A",
-      "BoxOffice": "N/A",
-      "Production": "N/A",
-      "Website": "N/A",
-      "Response": "True"
+      "metascore": "N/A",
+      "imdbrating": "5.9",
+      "imdbvotes": "10",
+      "imdbid": "tt4479976",
+      "type": "movie",
+      "dvd": "N/A",
+      "boxoffice": "N/A",
+      "production": "N/A",
+      "website": "N/A",
+      "response": "True"
     },
     "sessions": [
       {

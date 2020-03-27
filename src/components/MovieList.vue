@@ -1,32 +1,23 @@
 <template>
   <div id="movie-list">
-    <div
+    <movie-item
       class="movie"
       v-for="movie in filteredMovies"
-      v-bind:key="movie.title"
-    >
-      {{ movie.title }}
-    </div>
+      v-bind:key="movie.id"
+      v-bind:infos="movie.infos"
+    />
   </div>
 </template>
 
 <script>
 import genres from '../util/genres';
+import MovieItem from './MovieItem';
 
 export default {
-  props: ["genre", "time"],
-  data: function() {
-    return {
-      movies: [
-        { title: "La La Land 3", genre: genres.ANIMATION },
-        { title: "Home Alone", genre: genres.ANIMATION },
-        { title: "Austin Powers", genre: genres.HORROR },
-      ]
-    }
-  },
+  props: ["movies", "genre", "time"],
   methods: {
     filterByGenre: function(movie) {
-      return this.genre.find(genre => genre === movie.genre);
+      return this.genre.find(genre => movie.infos.genre.toLowerCase().includes(genre.toLowerCase()));
     }
   },
   computed: {
@@ -36,6 +27,9 @@ export default {
       }
       return this.movies.filter(this.filterByGenre);
     }
+  },
+  components: {
+    MovieItem
   }
 }
 </script>

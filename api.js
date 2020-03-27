@@ -36,12 +36,12 @@ function generateSessions(id) {
   return sessions.sort((a, b) => { if (a.time < b.time) { return - 1 } else { return a.time > b.time; } });
 }
 
-function cleanData(movie) {
-  if (movie.Rated === 'N/A' || movie.Rated === 'UNRATED' || movie.Rated === 'NOT RATED') {
-    let last = parseInt(movie.imdbID[movie.imdbID.length - 1]);
-    movie.Rated = last < 7 ? ( last < 4 ? 'G' : 'PG-13' ) : 'R';
+function cleanData(infos) {
+  if (infos.rated === 'N/A' || infos.rated === 'UNRATED' || infos.rated === 'NOT RATED') {
+    let last = parseInt(infos.imdbid[infos.imdbid.length - 1]);
+    infos.rated = last < 7 ? ( last < 4 ? 'G' : 'PG-13' ) : 'R';
   }
-  return movie;
+  return infos;
 }
 
 module.exports = {
@@ -60,7 +60,7 @@ module.exports = {
                   if (!response.data.Error) {
                     data.push({
                       id,
-                      movie: cleanData(response.data),
+                      infos: cleanData(response.data),
                       sessions: generateSessions(id)
                     });
                   } else {

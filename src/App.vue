@@ -6,7 +6,11 @@
     </div>
     <div id="overview">
         <div class="main">
-            <movie-list v-bind:genre="genre" v-bind:time="time"></movie-list>
+            <movie-list
+              v-bind:movies="movies"
+              v-bind:genre="genre"
+              v-bind:time="time"
+            ></movie-list>
             <movie-filter v-on:check-filter="checkFilter"></movie-filter>
         </div>
     </div>
@@ -20,8 +24,9 @@ import MovieFilter from './components/MovieFilter.vue';
 export default {
   data: function() {
     return {
+      movies: [],
       time: [],
-      genre: []
+      genre: [],
     }
   },
   methods: {
@@ -36,6 +41,13 @@ export default {
   components: {
     MovieList,
     MovieFilter,
+  },
+  created: function() {
+    fetch("//localhost:8888/api")
+      .then(response => response.json())
+      .then(json => {
+        this.movies = json
+      });
   }
 }
 </script>
