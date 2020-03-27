@@ -171,6 +171,7 @@ body, html {
           display: flex;
           align-items: flex-start;
           flex-wrap: wrap;
+          text-transform: capitalize;
 
           h2 {
             color: $sunshade;
@@ -190,6 +191,7 @@ body, html {
             user-select: none;
             white-space: nowrap;
             overflow: hidden;
+            text-transform: uppercase;
           }
 
           @media screen and (max-width: $break-small) {

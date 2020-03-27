@@ -10,16 +10,27 @@
               v-bind:movies="movies"
               v-bind:genre="genre"
               v-bind:time="time"
+              v-bind:day="day"
             ></movie-list>
-            <movie-filter v-on:check-filter="checkFilter"></movie-filter>
+            <movie-filter></movie-filter>
         </div>
     </div>
   </div>
 </template>
 
 <script>
+import Vue from 'vue';
+import moment from 'moment-timezone';
+
 import MovieList from './components/MovieList.vue';
 import MovieFilter from './components/MovieFilter.vue';
+import { checkFilter } from './util/bus'
+
+moment.tz.setDefault("UTC");
+Vue.prototype.$moment = moment;
+
+const bus = new Vue();
+Vue.prototype.$bus = bus;
 
 export default {
   data: function() {
@@ -27,15 +38,7 @@ export default {
       movies: [],
       time: [],
       genre: [],
-    }
-  },
-  methods: {
-    checkFilter: function(category, title, checked) {
-      if(checked) {
-        this[category].push(title);
-      } else {
-        this[category] = this[category].filter(item => item !== title);
-      }
+      day: moment()
     }
   },
   components: {
@@ -48,6 +51,8 @@ export default {
       .then(json => {
         this.movies = json
       });
+
+    this.$bus.$on("check-filter", checkFilter.bind(this));
   }
 }
 </script>
