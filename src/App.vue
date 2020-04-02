@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-cloak>
     <router-link 
       :to="{ name: 'home' }"
       class="no-link-decoration"
@@ -9,12 +9,14 @@
           <h1>Vue.js Cinema</h1>
       </div>
     </router-link>
-    <router-view
-      v-bind:movies="movies"
-      v-bind:genre="genre"
-      v-bind:time="time"
-      v-bind:day="day"
-    />
+    <keep-alive>
+      <router-view
+        v-bind:movies="movies"
+        v-bind:genre="genre"
+        v-bind:time="time"
+        v-bind:day="day"
+      />
+    </keep-alive>
   </div>
 </template>
 
@@ -25,9 +27,10 @@ import moment from 'moment-timezone';
 
 import { checkFilter, setDay } from './util/bus';
 import routes from './util/routes';
-import { addClass, removeClass } from './util/helpers';
+import Tooltip from './util/tooltip';
 
 Vue.use(VueRouter);
+Vue.use(Tooltip);
 
 const router = new VueRouter({ routes });
 
@@ -36,31 +39,6 @@ Vue.prototype.$moment = moment;
 
 const bus = new Vue();
 Vue.prototype.$bus = bus;
-
-const mouseOverHandler = function(e) {
-  addClass(e.target.nextElementSibling, "tooltip-show");
-}
-const mouseOutHandler = function(e) {
-  removeClass(e.target.nextElementSibling, "tooltip-show");
-}
-
-Vue.directive("tooltip", {
-  bind: function(el, binding) {
-    const span = document.createElement("span");
-    const text = document.createTextNode(`Seats available: ${binding.value.seats}`);
-    span.appendChild(text);
-    addClass(span, "tooltip");
-    el.appendChild(span);
-    const div = el.getElementsByTagName("div")[0];
-    div.addEventListener("mouseover", mouseOverHandler);
-    div.addEventListener("mouseout", mouseOutHandler);
-  },
-  unbind: function(el) {
-    const div = el.getElementsByTagName("div")[0];
-    div.removeEventListener("mouseover", mouseOverHandler);
-    div.removeEventListener("mouseout", mouseOutHandler);
-  }
-});
 
 export default {
   data: function() {
