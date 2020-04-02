@@ -36,6 +36,7 @@ body, html {
       padding: 2rem 0 1rem 2rem;
       display: flex;
       align-items: center;
+      text-decoration: none;
 
       img {
         width: 90px;
@@ -374,6 +375,7 @@ body, html {
     #detail {
       @include body-view;
       padding-bottom: 2rem;
+      padding-top: 2rem;
 
       .home {
         padding: 1rem 0;
@@ -394,6 +396,7 @@ body, html {
 
           .movie-genre {
             font-weight: bold;
+            text-transform: capitalize;
           }
 
           table {
@@ -458,3 +461,5 @@ $arrow-border: 7px;
     }
   }
 }
+
+.no-link-decoration { text-decoration: none; }

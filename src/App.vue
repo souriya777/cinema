@@ -1,30 +1,34 @@
 <template>
   <div id="app">
-    <div id="title">
-        <img src="../public/logo.png">
-        <h1>Vue.js Cinema</h1>
-    </div>
-    <div id="overview">
-        <div class="main">
-            <movie-list
-              v-bind:movies="movies"
-              v-bind:genre="genre"
-              v-bind:time="time"
-              v-bind:day="day"
-            ></movie-list>
-            <movie-filter></movie-filter>
-        </div>
-    </div>
+    <router-link 
+      :to="{ name: 'home' }"
+      class="no-link-decoration"
+    >
+      <div id="title">
+          <img src="../public/logo.png">
+          <h1>Vue.js Cinema</h1>
+      </div>
+    </router-link>
+    <router-view
+      v-bind:movies="movies"
+      v-bind:genre="genre"
+      v-bind:time="time"
+      v-bind:day="day"
+    />
   </div>
 </template>
 
 <script>
 import Vue from 'vue';
+import VueRouter from 'vue-router';
 import moment from 'moment-timezone';
 
-import MovieList from './components/MovieList.vue';
-import MovieFilter from './components/MovieFilter.vue';
-import { checkFilter } from './util/bus'
+import { checkFilter } from './util/bus';
+import routes from './util/routes'
+
+Vue.use(VueRouter);
+
+const router = new VueRouter({ routes });
 
 moment.tz.setDefault("UTC");
 Vue.prototype.$moment = moment;
@@ -41,10 +45,6 @@ export default {
       day: moment()
     }
   },
-  components: {
-    MovieList,
-    MovieFilter,
-  },
   created: function() {
     fetch("//localhost:8888/api")
       .then(response => response.json())
@@ -53,7 +53,8 @@ export default {
       });
 
     this.$bus.$on("check-filter", checkFilter.bind(this));
-  }
+  },
+  router
 }
 </script>
 

@@ -1,21 +1,18 @@
 <template>
   <div class="movie">
     <div class="movie-col-left">
-      <img v-bind:src="infos.poster">
+      <router-link :to="linkTo">
+        <img v-bind:src="infos.poster">
+      </router-link>
     </div>
     <div class="movie-col-right">
       <div class="movie-title">
-        <h2>{{ infos.title }}</h2>
+        <router-link :to="linkTo">
+          <h2>{{ infos.title }}</h2>
+        </router-link>
         <span class="movie-rating">{{ infos.rated }}</span>
       </div>
-      <div class="movie-sessions">
-        <div 
-          class="session-time-wrapper"
-          v-for="session in filteredSessions" 
-        >
-          <div class="session-time">{{ formatTime(session.time) }}</div>
-        </div>
-      </div>
+      <slot></slot>
     </div>
   </div>
 </template>
@@ -24,29 +21,10 @@
 import times from '../util/times';
 
 export default {
-  props: ["infos", "sessions", "day", "time"],
-  methods: {
-    formatTime: function(raw) {
-      return this.$moment(raw).format("h:mm A");
-    },
-    sessionPassesTimeFilter: function(session) {
-      if (!this.day.isSame(this.$moment(session.time), "day")) {
-        return false;
-      } 
-      
-      if(this.time.length === 0 || this.time.length === 2) {
-        return true
-      }
-
-      const currentHour = this.$moment(session.time).hour();
-      return (this.time[0] === times.BEFORE_6PM)
-          ? currentHour <= 18
-          : currentHour >= 18;
-    }
-  },
+  props: ["id", "infos"],
   computed: {
-    filteredSessions: function() {
-      return this.sessions.filter(this.sessionPassesTimeFilter);
+    linkTo: function() {
+      return { name: 'movie', params: { id: this.id } }
     }
   }
 }

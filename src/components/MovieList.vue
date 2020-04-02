@@ -4,11 +4,18 @@
       <movie-item
         v-for="movie in filteredMovies"
         v-bind:key="movie.id"
+        v-bind:id="movie.id"
         v-bind:infos="movie.infos"
-        v-bind:sessions="movie.sessions"
-        v-bind:day="day"
-        v-bind:time="time"
-      />
+      >
+        <div class="movie-sessions">
+          <div 
+            class="session-time-wrapper"
+            v-for="session in filteredSessions(movie.sessions)" 
+          >
+            <div class="session-time">{{ formatTime(session.time) }}</div>
+          </div>
+        </div>
+      </movie-item>
     </div>
     <div v-else-if="movies.length" class="no-result">
       {{ noResults }}
@@ -27,6 +34,9 @@ import MovieItem from './MovieItem';
 export default {
   props: ["movies", "genre", "time", "day"],
   methods: {
+    filteredSessions: function(sessions) {
+      return sessions.filter(this.sessionPassesTimeFilter);
+    },
     filterByGenre: function(movie) {
       if(this.genre.length === 0) {
         return true;
@@ -54,7 +64,10 @@ export default {
       return (this.time[0] === times.BEFORE_6PM)
           ? currentHour <= 18
           : currentHour >= 18;
-    }
+    },
+    formatTime: function(raw) {
+      return this.$moment(raw).format("h:mm A");
+    },
   },
   computed: {
     filteredMovies: function() {
