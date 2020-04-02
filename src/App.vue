@@ -23,8 +23,9 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import moment from 'moment-timezone';
 
-import { checkFilter } from './util/bus';
-import routes from './util/routes'
+import { checkFilter, setDay } from './util/bus';
+import routes from './util/routes';
+import { addClass, removeClass } from './util/helpers';
 
 Vue.use(VueRouter);
 
@@ -35,6 +36,31 @@ Vue.prototype.$moment = moment;
 
 const bus = new Vue();
 Vue.prototype.$bus = bus;
+
+const mouseOverHandler = function(e) {
+  addClass(e.target.nextElementSibling, "tooltip-show");
+}
+const mouseOutHandler = function(e) {
+  removeClass(e.target.nextElementSibling, "tooltip-show");
+}
+
+Vue.directive("tooltip", {
+  bind: function(el, binding) {
+    const span = document.createElement("span");
+    const text = document.createTextNode(`Seats available: ${binding.value.seats}`);
+    span.appendChild(text);
+    addClass(span, "tooltip");
+    el.appendChild(span);
+    const div = el.getElementsByTagName("div")[0];
+    div.addEventListener("mouseover", mouseOverHandler);
+    div.addEventListener("mouseout", mouseOutHandler);
+  },
+  unbind: function(el) {
+    const div = el.getElementsByTagName("div")[0];
+    div.removeEventListener("mouseover", mouseOverHandler);
+    div.removeEventListener("mouseout", mouseOutHandler);
+  }
+});
 
 export default {
   data: function() {
@@ -53,6 +79,7 @@ export default {
       });
 
     this.$bus.$on("check-filter", checkFilter.bind(this));
+    this.$bus.$on("set-day", setDay.bind(this));
   },
   router
 }

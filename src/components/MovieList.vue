@@ -9,8 +9,9 @@
       >
         <div class="movie-sessions">
           <div 
-            class="session-time-wrapper"
-            v-for="session in filteredSessions(movie.sessions)" 
+            class="session-time-wrapper tooltip-wrapper"
+            v-for="session in filteredSessions(movie.sessions)"
+            v-tooltip="{ seats: session.seats }"
           >
             <div class="session-time">{{ formatTime(session.time) }}</div>
           </div>
